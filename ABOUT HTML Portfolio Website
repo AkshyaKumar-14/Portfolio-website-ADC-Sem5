@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshya - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="about">
+            <h1>ABOUT</h1>
+            <p class="description">My journey in design combines aesthetics with functionality, and I thrive on hands-on projects that challenge my creativity. Always eager to learn, I aim to craft solutions that truly resonate with users.</p>
+        </section>
+
+         <section class="content">
+            <div class="project-card" id="project-card">
+                <img src="https://i.ibb.co/nj7yLWR/Screenshot-2024-10-14-at-7-36-30-PM.png" alt="Project Image">
+                <div class="card-content">
+                    <h2>About Me</h2>
+                    <p>With a passion for creating intuitive and engaging user experiences, I’ve honed my skills through hands-on projects and collaborations. My journey in design began with a fascination for how aesthetics and functionality intertwine, leading me to explore various design methodologies and tools. </p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="card-details">
+                    <h3>Project Details</h3>
+                    <p>This project showcases the perfect blend of aesthetics and functionality. It involved creating a responsive web application that adapts seamlessly to various devices while maintaining an intuitive user interface.</p>
+                    <ul>
+                        <li>Implemented using HTML5, CSS3, and JavaScript</li>
+                        <li>Incorporated modern design trends and animations</li>
+                        <li>Optimized for performance and accessibility</li>
+                    </ul>
+                    <button class="close-details">Close</button>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <p class="info-text">
+                    Personal Motto:<br>
+                    "Create with intention, design with authenticity."
+                </p>
+                <div class="info-cards">
+                    <a href="#" class="info-card resume" id="resume-card">
+                        <img src="https://i.ibb.co/Dr70SjP/Screenshot-2024-10-14-at-7-45-29-PM.png" alt="Resume">
+                        <span>Resume Download</span>
+                    </a>
+                    <a href="#" class="info-card skills" id="skills-card">
+                        <img src="https://i.ibb.co/1sj3GRB/Screenshot-2024-10-14-at-7-45-38-PM.png"  alt="Skills">
+                        <span>Skills Overview</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
