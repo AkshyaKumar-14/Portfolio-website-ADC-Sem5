@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshya's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/CwGbbT0/pexels-timrael-2474689.jpg" alt="Banner" class="banner-image">
+    </header>
+    
+    <main>
+        <h1>HOME</h1>
+        <section class="intro">
+            <p>Welcome!</p>
+            <p>I'm Akshya, a third-year UI/UX design student at PES University.</p>
+            <p>I create user-centered designs that blend functionality and aesthetics.</p>
+            <p>Explore my portfolio to see my work. Thanks for visiting!</p>
+        </section>
+        
+        <section class="projects">
+            <div class="carousel">
+                <div class="card">
+                    <img src="https://i.ibb.co/CQ1cQ14/Screenshot-2024-10-03-at-10-19-31-PM.png"  alt="Digitising Stove's Interface">
+                    <div class="card-content">
+                        <h3>DIGITISING STOVE'S INTERFACE</h3>
+                        <p>SmartStove Interface Redesign: This project digitizes a traditional stove interface enhancing usability and safety.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src=https://i.ibb.co/2P5rKh3/Screenshot-2024-10-05-at-7-43-03-PM.png" alt="A Day in Design">
+                    <div class="card-content">
+                        <h3>A Day in Design</h3>
+                        <p>This zine offers a snapshot of a designer's daily life, highlighting the creative process and inspiration behind each project.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.ibb.co/ph98RFg/Screenshot-2024-10-05-at-7-43-21-PM.png" " alt="Nursery Rhyme Representation">
+                    <div class="card-content">
+                        <h3>Nursery Rhyme Representation</h3>
+                        <p>This project utilizes semiotics to explore the rich symbolism within a nursery rhyme.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src=https://i.ibb.co/r3ZXxQr/Screenshot-2024-10-05-at-7-50-30-PM.png" alt="Brand Visual Guidelines">
+                    <div class="card-content">
+                        <h3>Brand Visual Guidelines</h3>
+                        <p>These brand visual guidelines define the essential elements of our brand identity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+
